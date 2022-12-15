@@ -1,7 +1,3 @@
-# Created with Pyto
-
-
-
 
 import string
 import random
