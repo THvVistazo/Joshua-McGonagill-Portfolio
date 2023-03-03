@@ -9,14 +9,14 @@ numbers = list(string.digits)
 special_characters = list("!@#$%^&*" + "()")
 
 def generate_random_password():
-    # length of password from the user
+    # amount of letters in password
     letter_count = int(input("Enter the desired amount of letters: "))
 
     # amount of numbers in password
-    number_count= int(input("Enter the desired number count: "))
+    number_count= int(input("Enter the desired amount of numbers: "))
 
     # amount of special characters in password
-    spec_char_count = int(input("Enter the desired special character count: "))
+    spec_char_count = int(input("Enter the desired amount of characters: "))
 
     # picking random characters from the list
     password = []
