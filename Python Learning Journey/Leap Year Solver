@@ -1,0 +1,27 @@
+## This program will tell you if the year you input is a leap year or not a leap year. 
+
+year = int(input("Which year do you want to check? "))
+
+'''
+This is how you work out whether if a particular year is a leap year:
+    Leap year is every year that is evenly divisible by 4 
+
+    **except** every year that is evenly divisible by 100 
+
+    **unless** the year is also evenly divisible by 400
+'''
+
+
+
+div_by_four = year % 4
+div_by_hundred = year % 100
+div_by_four_hundred = year % 400
+
+if div_by_four == 0:
+    if div_by_hundred == 0:
+        if div_by_four_hundred == 0:
+            print("Leap year.")
+    else:
+        print("Leap year.")
+else:
+    print("Not leap year.")
