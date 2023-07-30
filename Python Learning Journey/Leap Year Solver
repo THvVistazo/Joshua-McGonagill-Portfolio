@@ -21,6 +21,8 @@ if div_by_four == 0:
     if div_by_hundred == 0:
         if div_by_four_hundred == 0:
             print("Leap year.")
+        else:
+            print("Not leap year.")
     else:
         print("Leap year.")
 else:
